@@ -1,0 +1,261 @@
+{
+  "chksum": "EXAMPLE-NOT-A-REAL-CHECKSUM",
+  "data": {
+    "gstin": "33AABCT4821K1ZF",
+    "rtnprd": "102026",
+    "version": "1.0",
+    "gendt": "14-11-2026",
+    "docdata": {
+      "b2b": [
+        {
+          "ctin": "33ABMPB3456C1Z5",
+          "trdnm": "Sri Balaji Traders",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "INV/2026-27/0042",
+              "typ": "R",
+              "dt": "03-10-2026",
+              "val": 59000.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 50000.0,
+                  "igst": 0.0,
+                  "cgst": 4500.0,
+                  "sgst": 4500.0,
+                  "cess": 0
+                }
+              ]
+            },
+            {
+              "inum": "INV-2026-27-43",
+              "typ": "R",
+              "dt": "09-10-2026",
+              "val": 37760.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 32000.0,
+                  "igst": 0.0,
+                  "cgst": 2880.0,
+                  "sgst": 2880.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "29AAFCK7788M1ZH",
+          "trdnm": "Kaveri Steels",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "KS-1187",
+              "typ": "R",
+              "dt": "06-10-2026",
+              "val": 11800.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 10000.0,
+                  "igst": 1800.0,
+                  "cgst": 0.0,
+                  "sgst": 0.0,
+                  "cess": 0
+                }
+              ]
+            },
+            {
+              "inum": "KS-1190",
+              "typ": "R",
+              "dt": "15-10-2026",
+              "val": 59000.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 50000.0,
+                  "igst": 0.0,
+                  "cgst": 4500.0,
+                  "sgst": 4500.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "29AAKFD5512Q1ZV",
+          "trdnm": "Deccan Packaging",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "DP/889",
+              "typ": "R",
+              "dt": "11-10-2026",
+              "val": 44800.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 12,
+                  "txval": 40000.0,
+                  "igst": 4800.0,
+                  "cgst": 0.0,
+                  "sgst": 0.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "33AAGFL2290B1ZS",
+          "trdnm": "Lotus Office Supplies",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "5530",
+              "typ": "R",
+              "dt": "05-10-2026",
+              "val": 10030.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 8500.0,
+                  "igst": 0.0,
+                  "cgst": 765.0,
+                  "sgst": 765.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "33BQRPA6643H1ZS",
+          "trdnm": "Arun Electricals",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "AE-3350",
+              "typ": "R",
+              "dt": "29-10-2026",
+              "val": 75520.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 64000.0,
+                  "igst": 0.0,
+                  "cgst": 5760.0,
+                  "sgst": 5760.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "33AAHFN9034D1ZH",
+          "trdnm": "Nila Logistics",
+          "supfildt": "11-11-2026",
+          "supprd": "102026",
+          "inv": [
+            {
+              "inum": "NL-778",
+              "typ": "R",
+              "dt": "19-10-2026",
+              "val": 17700.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 15000.0,
+                  "igst": 0.0,
+                  "cgst": 1350.0,
+                  "sgst": 1350.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

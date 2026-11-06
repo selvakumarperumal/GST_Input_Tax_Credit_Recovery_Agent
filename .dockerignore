@@ -1,0 +1,34 @@
+# Only pyproject.toml, uv.lock and src/ are copied into images; keep everything else out.
+
+# Git and docs
+.git
+.gitignore
+*.md
+
+# Local environments and secrets
+.venv
+.direnv
+.env
+.env.*
+.envrc
+.python-version
+
+# Python build and tool caches
+**/__pycache__
+**/*.py[cod]
+**/*.egg-info
+build
+dist
+.pytest_cache
+.ruff_cache
+.mypy_cache
+
+# Docker files themselves
+.dockerignore
+docker-compose.yml
+**/Dockerfile
+
+# Editors / OS
+.vscode
+.idea
+.DS_Store

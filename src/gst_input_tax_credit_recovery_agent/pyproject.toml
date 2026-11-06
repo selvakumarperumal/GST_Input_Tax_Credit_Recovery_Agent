@@ -1,0 +1,32 @@
+[project]
+name = "gst-input-tax-credit-recovery-agent"
+version = "0.1.0"
+description = "GST Input Tax Credit recovery agent: 2B reconciliation and vendor follow-up"
+authors = [
+    { name = "Selvakumar Perumal", email = "selvakumarp@proton.me" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "asyncpg>=0.32.0",
+    "fastapi>=0.162.0",
+    "openpyxl>=3.1.5",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "python-multipart>=0.0.33",
+    "sqlalchemy[asyncio]>=2.1.8",
+    "sqlmodel>=0.0.48",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+gst-input-tax-credit-recovery-agent = "gst_input_tax_credit_recovery_agent:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+# The files in this folder are the `gst_input_tax_credit_recovery_agent` package.
+[tool.hatch.build.targets.wheel]
+include = ["*.py"]
+sources = { "" = "gst_input_tax_credit_recovery_agent" }
+dev-mode-dirs = [".."]

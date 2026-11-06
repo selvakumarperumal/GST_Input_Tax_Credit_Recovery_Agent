@@ -1,3 +1,7 @@
+# --- Project ---
+# .envrc may contain local credentials; keep it untracked. Real secrets in .env are ignored too.
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -151,13 +155,15 @@ activemq-data/
 
 # Environments
 .env
-.envrc
+.env.*
 .venv
+.direnv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+*.envrc
 
 # Spyder project settings
 .spyderproject
@@ -218,3 +224,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+APP_OVERVIEW.md
+finance-agents-architecture.md
+UV_GUIDE.md

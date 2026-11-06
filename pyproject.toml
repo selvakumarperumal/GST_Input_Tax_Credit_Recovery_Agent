@@ -1,0 +1,12 @@
+# Workspace root: no dependencies of its own. Each package in src/ has its own pyproject.toml.
+#   uv sync                                     -> installs every package (local dev)
+#   uv sync --no-dev --package <name>           -> installs one package + its deps (Docker)
+
+[tool.uv.workspace]
+members = ["src/gst_input_tax_credit_recovery_agent"]
+
+[dependency-groups]
+dev = ["gst-input-tax-credit-recovery-agent"]
+
+[tool.uv.sources]
+gst-input-tax-credit-recovery-agent = { workspace = true }

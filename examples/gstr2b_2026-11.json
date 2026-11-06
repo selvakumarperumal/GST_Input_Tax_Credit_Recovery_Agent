@@ -1,0 +1,116 @@
+{
+  "chksum": "EXAMPLE-NOT-A-REAL-CHECKSUM",
+  "data": {
+    "gstin": "33AABCT4821K1ZF",
+    "rtnprd": "112026",
+    "version": "1.0",
+    "gendt": "14-12-2026",
+    "docdata": {
+      "b2b": [
+        {
+          "ctin": "33ABMPB3456C1Z5",
+          "trdnm": "Sri Balaji Traders",
+          "supfildt": "11-12-2026",
+          "supprd": "112026",
+          "inv": [
+            {
+              "inum": "INV/2026-27/0044",
+              "typ": "R",
+              "dt": "21-10-2026",
+              "val": 88500.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 75000.0,
+                  "igst": 0.0,
+                  "cgst": 6750.0,
+                  "sgst": 6750.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ctin": "33AAGFL2290B1ZS",
+          "trdnm": "Lotus Office Supplies",
+          "supfildt": "11-12-2026",
+          "supprd": "112026",
+          "inv": [
+            {
+              "inum": "LOS-5521",
+              "typ": "R",
+              "dt": "28-10-2026",
+              "val": 14160.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 12000.0,
+                  "igst": 0.0,
+                  "cgst": 1080.0,
+                  "sgst": 1080.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "b2ba": [
+        {
+          "ctin": "29AAFCK7788M1ZH",
+          "trdnm": "Kaveri Steels",
+          "supfildt": "11-12-2026",
+          "supprd": "112026",
+          "inv": [
+            {
+              "oinum": "KS-1187",
+              "oidt": "06-10-2026",
+              "inum": "KS-1187",
+              "typ": "R",
+              "dt": "06-10-2026",
+              "val": 118000.0,
+              "pos": "33",
+              "rev": "N",
+              "itcavl": "Y",
+              "rsn": "",
+              "diffprcnt": 1,
+              "srctyp": "",
+              "irn": "",
+              "irngendate": "",
+              "items": [
+                {
+                  "num": 1,
+                  "rt": 18,
+                  "txval": 100000.0,
+                  "igst": 18000.0,
+                  "cgst": 0.0,
+                  "sgst": 0.0,
+                  "cess": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

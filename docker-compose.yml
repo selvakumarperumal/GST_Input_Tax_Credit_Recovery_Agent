@@ -1,0 +1,46 @@
+# Start order: postgres (healthy) -> app (creates tables on startup)
+# The app's code is mounted, so edits apply live. Rebuild (--build) only after changing dependencies.
+
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: gst_user
+      POSTGRES_PASSWORD: gst_password
+      POSTGRES_DB: gst_itc
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "gst_user", "-d", "gst_itc"]
+      interval: 2s
+      retries: 15
+
+  app:
+    build:
+      context: .
+      dockerfile: src/gst_input_tax_credit_recovery_agent/Dockerfile
+    command: uvicorn gst_input_tax_credit_recovery_agent.api:app --host 0.0.0.0 --port 8000 --reload --reload-dir src
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src/gst_input_tax_credit_recovery_agent:/app/src/gst_input_tax_credit_recovery_agent:ro
+    environment:
+      DATABASE_URL: postgresql+asyncpg://gst_user:gst_password@postgres:5432/gst_itc
+      APP_ENV: development
+      TENANT_ID: tenant-demo-001
+      # Dummy values below: replace with real ones
+      GSP_BASE_URL: https://sandbox.gsp.example.com
+      GSP_CLIENT_ID: dummy-client-id
+      GSP_CLIENT_SECRET: dummy-client-secret
+      GSTIN: 33ABCDE1234F1Z5
+      SMTP_HOST: smtp.example.com
+      SMTP_USER: noreply@example.com
+      SMTP_PASSWORD: dummy-smtp-password
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  pgdata:
